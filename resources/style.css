@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+
+}
+body {
+  max-width: 960px;
+}
+header {
+  background-color: cadetblue;
+  display: inline-flex;
+  width: 960px;
+  position: fixed;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: white;
+  height: 3rem;
+  z-index: 1;
+}
+ nav {
+   text-align: right;
+   align-items: center;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+nav span {
+    padding-right: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  padding-left: 2rem;
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+.main-banner {
+  display: flex;
+  height: 30rem;
+
+}
+.description {
+  z-index: 2;
+  position: absolute;
+  top: 15rem;
+  font-size: 2rem;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  left: 250px;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .icons {
+  display: flex;
+  flex-direction: row;
+  height: 8rem;
+  align-content: center;
+  text-align: center;
+
+}
+.icon {
+  padding: 3rem 6rem 3rem 0;
+}
+#paper-icon img {
+  width: 3.5rem;
+  height: auto;
+}
+#ruler-icon img {
+  width: 5rem;
+  height: auto;
+}
+#truck-icon img {
+  width: 5rem;
+  height: auto;
+}
+.info {
+  display: flex;
+}
